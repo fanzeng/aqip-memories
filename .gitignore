@@ -1,0 +1,7 @@
+# Important: Please make sure this file contains a line that reads "data"
+# data is the directory that contains sensitive info, and it's a big folder too
+# so never commmit anything in that folder
+# as its name suggests, it only contains ... data
+data
+build
+node_modules

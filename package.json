@@ -1,0 +1,36 @@
+{
+  "name": "aqip_memories",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-node": "0.0.1-security",
+    "babel-preset-react": "^6.24.1",
+    "babel-cli": "^6.6.5",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "nodemon": "^1.19.1",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "scripts": {
+    "startnode": "node node_modules/nodemon/bin/nodemon server/index.js",
+    "build": "node node_modules/webpack/bin/webpack",
+    "start": "webpack-dev-server",
+    "startserver": "node node_modules/nodemon/bin/nodemon --exec babel-node server/index.js  --ignore app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "mysql": "^2.17.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
