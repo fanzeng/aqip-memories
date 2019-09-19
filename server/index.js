@@ -129,7 +129,7 @@ function checkAuth(req, res, next) {
     return next();
   }
   console.log('authentication failed for req = ' + [req]);
-  res.redirect('login');
+  res.redirect('/login');
 }
 
 
