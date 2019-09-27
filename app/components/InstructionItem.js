@@ -7,6 +7,8 @@ function instructionItem(props) {
 			<p>Catogory: {props.item.catogory}</p>
 			<p>Description:</p>
 			<p>{props.item.description}</p>
+			<a href={props.item.link}>{props.item.link}</a>
+
 			<span class="align_right"><a href="#top">top</a></span>
 		</div>
 	);
