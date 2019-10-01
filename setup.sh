@@ -18,7 +18,6 @@ sudo apt-get install mysql-server
 # Please google on how to do this. Just make sure node is available in the system.
 # tested on version: v10.16.3
 # install npm
-# tested on v9.6.0
 
 # install dependencies
 npm i
